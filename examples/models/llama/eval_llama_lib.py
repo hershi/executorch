@@ -21,8 +21,6 @@ from omegaconf import DictConfig, OmegaConf
 from pytorch_tokenizers import get_tokenizer
 from pytorch_tokenizers.llama2c import Llama2cTokenizer as SentencePieceTokenizer
 from pytorch_tokenizers.tiktoken import TiktokenTokenizer as Tiktoken
-from torch.nn import CrossEntropyLoss
-from tqdm import tqdm
 
 from .evaluate.eager_eval import EagerEvalWrapper
 

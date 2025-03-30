@@ -1251,7 +1251,7 @@ def _load_llama_model(
             input_prune_map_path=input_prune_map_path,
             output_prune_map_path=output_prune_map_path,
             dtype=torch_dtype,
-            args=config,
+            config=config,
         )
     )
 
